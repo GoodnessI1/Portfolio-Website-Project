@@ -1,0 +1,44 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.designFirstSec {
+    height: 100vh;
+    background-color: #49225B;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 0 3rem;
+    height: 100px;
+    background: red;
+}
+
+#name {
+    color: #ffffff;
+    text-align: center;
+    height: 100%;
+}
+
+#navLinks {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+#navLinks > a {
+    text-decoration: none;
+    color: #ffffff;
+    height: 100%;
+    /* font-size: 1.2rem; */
+    /* font-weight: 500; */
+}
