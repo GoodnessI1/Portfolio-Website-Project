@@ -3,6 +3,7 @@
 html {
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
+  scrollbar-width: thin;
 }
 
 body {
@@ -20,7 +21,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 3.5rem;
+  padding: 0 5rem;
   width: 100%;
   height: 100px;
   /* position: fixed; */
@@ -32,7 +33,7 @@ nav {
   text-align: center;
   /* background-color: black; */
   padding: 0.5rem;
-  font-size: 2.5rem;
+  font-size: 2.1rem;
 }
 
 #navLinks {
@@ -64,7 +65,7 @@ nav {
   height: calc(100% - 100px);
   width: 100%;
   box-sizing: border-box;
-  padding: 0 3.5rem;
+  padding: 0 5rem;
   display: flex;
   justify-content: space-between;
 }
@@ -108,12 +109,103 @@ nav {
   width: 150px;
   padding: 1rem 0.7rem;
   font-size: 1rem;
-  border: 0 solid ;
-  border-radius: 5%;
+  border: 0 solid;
+  border-radius: 30px;
 }
 
 .b + .b {
   color: #fdcb6e;
   background-color: #49225b;
   border: 2px solid #fdcb6e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
 }
+
+.img {
+  /* background-color: #fdcb6e; */
+  display: flex;
+  align-items: center;
+}
+
+.img > img {
+  width: 400px;
+  margin-top: -20%;
+  border: none;
+  border-radius: 40px;
+}
+
+
+
+
+/* The Second Section Style */
+#secSect {
+  background-color: #330E4D;
+  height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#about {
+  width: 60%;
+}
+
+#about > h3 {
+  color: #fff;
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+#about > h3 > span {
+  color: #fdcb6e;
+}
+
+#about > p {
+  color: #fff;
+  font-size: 1rem;
+  line-height: 1.6rem;
+  margin-top: 1.2rem;
+}
+
+#design {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.des {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.longOval {
+  width: 65px;
+  height: 220px;
+  background-color: #fdcb6e;
+  border-radius: 65px;
+}
+
+.circle {
+  width: 65px;
+  height: 65px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.empLongOval {
+  width: 65px;
+  height: 260px;
+  background: transparent;
+  border: 2px solid #fdcb6e;
+  border-radius: 65px;
+}
+
